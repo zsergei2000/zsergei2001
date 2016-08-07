@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    
+            <!-- <corners
+                android:radius="4dp" /> -->
+             
+           	<stroke
+                android:width="3dp" /> 
+            <!-- <stroke
+                android:width="15dp"
+                android:dashWidth="10dp"
+                android:dashGap="15dp"/> -->
+            <!-- <solid
+                android:color="@color/color_menu"/> -->
+            <solid
+                android:color="#AA545969"/>
+            
+            <!-- <size
+                android:width=""/> -->
+            <!-- <padding
+                android:left="20dp"
+                android:right="20dp"/> -->
+            
+            <!-- <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" /> --> 
+        
+    
+</shape>

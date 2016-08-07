@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tree_item_main"
+    android:layout_width="80dp"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:background="@drawable/select_menu2" >
+
+    <TextView
+        android:id="@+id/tree_item_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="textview"
+        android:textColor="@color/white"
+        android:textSize="12sp" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tree_item_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="TextView"
+        android:textSize="8sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tree_item_kod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="8sp"
+        android:visibility="invisible" />
+
+</FrameLayout>

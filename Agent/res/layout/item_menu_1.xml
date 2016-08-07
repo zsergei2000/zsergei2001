@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tree_item_main"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+
+    <ImageView
+        android:id="@+id/menu1_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tree_item_kod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="8sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tree_item_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:text="textview"
+        android:textSize="16sp"
+        android:visibility="invisible" />
+
+</FrameLayout>

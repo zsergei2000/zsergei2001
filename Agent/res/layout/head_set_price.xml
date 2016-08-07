@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/items_head"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/color_red1" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Наименование"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@color/color_yellow" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Над Полкой"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@color/color_blue" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Под Полкой"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#0404B4</item>
+    <item name="darkpurple" type="color">#0099cc</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+ 
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+    <color name="color_1">#8EB2C5</color>
+    <color name="color_1_dark">#AA8EB2C5</color>
+    <color name="color_2">#F9BF76</color>
+    <color name="color_2_dark">#AAF9BF76</color>
+    <color name="color_3">#E5625C</color>
+    <color name="color_3_dark">#AAE5625C</color>
+    <color name="color_4">#D0323A</color>
+    <color name="color_4_dark">#AAD0323A</color>
+    <color name="color_5">#6F8D9D</color>
+    <color name="color_5_dark">#AA6F8D9D</color>
+    <color name="color_red1">#E5625C</color>
+    <color name="color_red1_dark">#AAE5625C</color>
+    <color name="color_yellow">#F9BF76</color>
+    <color name="color_blue">#8EB2C5</color>
+    <color name="color_blue_dark">#AA8EB2C5</color>
+    <color name="color_red2">#D0323A</color>
+    <color name="color_green">#43D886</color>
+    <color name="color_green_dark">#AA43D886</color>
+    <color name="white">#ffffff</color>
+    <color name="color_menu">#545969</color>
+    <color name="color_menu_dark">#AA545969</color>
+    <color name="color_back">#323444</color>
+ 
+</resources> 
